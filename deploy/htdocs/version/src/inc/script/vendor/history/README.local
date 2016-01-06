@@ -1,0 +1,11 @@
+URL: https://github.com/devote/HTML5-History-API/blob/27d66f3d3c81059ed2b450d72de52ddedbdb875c/history.js
+Version: 4.0.0
+License: MIT or GPL
+
+Description:
+This Javascript library provides an emulation of HTML5 History API for older
+browsers.
+
+Local Modifications:
+Added AMD wrapper, browser class and IE check, marked in the file:
+line 1-8 and 1133-1135.

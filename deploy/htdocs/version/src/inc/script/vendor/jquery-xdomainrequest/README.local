@@ -1,0 +1,12 @@
+URL: https://github.com/MoonScript/jQuery-ajaxTransport-XDomainRequest/blob/1.0.3/jQuery.XDomainRequest.js
+Version: 1.0.3
+License: MIT
+
+Description:
+Implements automatic Cross Origin Resource Sharing support using the
+XDomainRequest object for IE8 and IE9 when using the $.ajax function in jQuery
+1.5+.
+
+Local Modifications:
+No modifications
+

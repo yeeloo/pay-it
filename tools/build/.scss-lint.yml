@@ -1,0 +1,76 @@
+# overrides default:
+# https://github.com/brigade/scss-lint/blob/master/config/default.yml
+# docs: https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md
+
+#scss_files: '../../deploy/htdocs/version/src/inc/style/**/*.scss'
+
+linters:
+  Comment:
+    enabled: false
+
+  ColorVariable:
+    enabled: false
+
+  DisableLinterReason:
+    enabled: true
+
+  TrailingZero:
+    enabled: true
+
+  VariableForProperty:
+    enabled: true
+    properties:
+      - 'font-family'
+      - 'z-index'
+
+  # used by both mixins as variables
+  NameFormat:
+    enabled: true
+    allow_leading_underscore: true
+    convention: hyphenated_lowercase # 'hyphenated_lowercase' or 'camel_case', or 'snake_case', or a regex pattern
+    function_convention: hyphenated_lowercase
+    mixin_convention: hyphenated_lowercase
+    placeholder_convention: hyphenated_lowercase
+    variable_convention: camel_case
+
+  Indentation:
+    allow_non_nested_indentation: false
+    character: tab # or 'tab'
+    width: 1
+
+  StringQuotes:
+    enabled: true
+    style: single_quotes # single_quotes or double_quotes
+
+  LeadingZero:
+    enabled: true
+    style: exclude_zero # 'exclude_zero' or 'include_zero'
+
+  NestingDepth:
+    enabled: true
+    max_depth: 3
+    ignore_parent_selectors: false
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 3
+
+  # https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md#propertysortorder
+  # https://github.com/brigade/scss-lint/tree/master/data/property-sort-orders
+  PropertySortOrder:
+    enabled: false
+    ignore_unspecified: false
+    min_properties: 2
+    separate_groups: false
+
+  SelectorFormat:
+    enabled: true
+    convention: hyphenated_lowercase # or 'strict_BEM', or 'hyphenated_BEM', or 'snake_case', or 'camel_case', or a regex pattern
+
+  PropertySpelling:
+    enabled: true
+    extra_properties:
+      - '*zoom'
+
+  FinalNewline:
+    enabled: true

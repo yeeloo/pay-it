@@ -1,0 +1,9 @@
+URL: https://github.com/requirejs/text/blob/0260977d6dfb61a44c7b5ec977332955dac33869/text.js
+Version: 2.0.12
+License: MIT or new BSD
+
+Description:
+A RequireJS/AMD loader plugin for loading text resources.
+
+Local Modifications:
+Added 'text' on line 11 to name the module for easy import despite the location.

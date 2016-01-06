@@ -1,0 +1,19 @@
+URL: https://github.com/petkaantonov/bluebird/releases/tag/v2.10.2
+Version: 2.10.2 (Custom Build)
+License: MIT
+
+Description:
+Bluebird is a fully featured promise library with focus on innovative features
+and performance.
+
+Local Modifications:
+Custom build (see <https://github.com/petkaantonov/bluebird/tree/2.x#custom-builds>)
+with only the required features enabled to reduce file size:
+core, race, map, props, reduce, settle, some, cancel, filter, any, each
+
+Currently the custom build only works on OSX:
+- git clone git@github.com:petkaantonov/bluebird.git
+- git checkout 2.x
+- npm install
+- node tools/build --features="core race map props reduce settle some cancel filter any each"
+- copy output from /js/browser/bluebird.js

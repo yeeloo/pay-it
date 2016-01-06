@@ -1,0 +1,118 @@
+-----
+
+The license below relates to:
+frontend source folder (deploy/htdocs/inc)
+- script/lib/facebook
+- script/lib/gaia
+- script/lib/temple
+- script/lib/polyfills (partly)
+- script/lib/knockout (partly)
+- script/lib/*.js
+- script/app/net/gateway
+- style/utilities
+
+and build tools:
+- /tools/build/tasks
+
+-----
+
+The MIT License (MIT)
+
+Copyright (c) 2015 MediaMonks B.V.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-----
+
+Third party licenses are located in:
+frontend source folder (deploy/htdocs/inc)
+
+- script/lib/bluebird
+Bluebird
+version 2.9.14 
+https://github.com/petkaantonov/bluebird/blob/master/LICENSE (MIT)
+
+- script/lib/createjs
+EaselJS
+version 0.7.1
+https://github.com/CreateJS/EaselJS/blob/master/LICENSE.txt (MIT)
+
+TweenJS
+version 0.5.1 
+https://github.com/CreateJS/TweenJS/blob/master/LICENSE.txt (MIT)
+
+SoundJS
+version 0.5.2 
+https://github.com/CreateJS/SoundJS/blob/master/LICENSE.txt (MIT)
+
+PreloadJS
+version 0.4.1
+https://github.com/CreateJS/PreloadJS/blob/master/LICENSE.txt (MIT)
+
+- script/lib/gsap
+GSAP
+version 1.13.2
+http://greensock.com/standard-license (custom)
+
+- script/lib/history
+HistoryJS
+version 4.0.0
+https://github.com/browserstate/history.js/blob/master/LICENSE.md (BSD)
+
+- script/lib/jquery
+JQuery
+version 1.8.3
+https://github.com/jquery/jquery/blob/master/LICENSE.txt (MIT and custom)
+
+- script/lib/knockout
+KnockoutJS
+version 3.0.0
+https://github.com/knockout/knockout/blob/master/LICENSE (MIT)
+
+- script/lib/modernizr
+Modernizr
+version 2.6.2
+https://github.com/Modernizr/Modernizr/blob/master/LICENSE (MIT)
+
+- script/lib/moment
+Moment
+version 2.0.0
+https://github.com/moment/moment/blob/master/LICENSE (custom)
+
+- script/lib/mootools
+Mootools
+version 1.4.5 
+https://github.com/mootools/mootools-core/blob/master/Source/license.txt (MIT)
+
+- script/lib/require
+RequireJS
+version 2.1.10
+https://github.com/jrburke/requirejs/blob/master/LICENSE (BSD)
+
+- script/lib/sockjs
+SockJS
+version 0.3.4
+https://github.com/sockjs/sockjs-client/blob/master/LICENSE (MIT)
+
+- script/lib/xregexp
+XRegexp
+version 2.0.0
+https://github.com/slevithan/xregexp/blob/master/LICENSE.txt (MIT)
+
+-----

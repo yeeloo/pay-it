@@ -1,0 +1,11 @@
+*/.idea
+.idea
+.tscache
+/build
+/deploy/htdocs/version/src/inc/script/def/tsd/
+/docs
+/tools/build/.sass-cache
+/tools/build/node_modules
+/deploy/htdocs/coverage
+.DS_Store
+npm-debug.log

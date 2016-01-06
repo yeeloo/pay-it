@@ -1,0 +1,23 @@
+//noinspection CssUnknownTarget
+@import 'scss-shared/MediaQueries.js';
+
+// Source Paths
+$pathFont: '../font/';
+$pathImage: '../image/';
+
+// Sprite Images
+$spriteDefault: 'sprite-default.png';
+
+// Fonts
+$fontArial: Arial, sans-serif;
+$fontCustom: 'Ubuntu', sans-serif;
+
+// Sizes
+// Colors
+$colorMain: #000;
+$colorBg: #1f253d;
+$colorBlock: #394264;
+$colorYellow: #FCB150;
+
+// Z-indexes
+$layout: default;

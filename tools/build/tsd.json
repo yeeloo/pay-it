@@ -1,0 +1,63 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "../../deploy/htdocs/version/src/inc/script/def/tsd",
+  "bundle": "../../deploy/htdocs/version/src/inc/script/def/tsd/tsd.d.ts",
+  "installed": {
+    "requirejs/require.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "knockout/knockout.d.ts": {
+      "commit": "421d6610bdb09e1015b71f5991d7a68d079eca21"
+    },
+    "jquery.cookie/jquery.cookie.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "modernizr/modernizr.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "moment/moment.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "moment/moment-node.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "xregexp/xregexp.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "history/history.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "greensock/greensock.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "bluebird/bluebird.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "soundjs/soundjs.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "webaudioapi/waa.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "createjs-lib/createjs-lib.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "webrtc/MediaStream.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "preloadjs/preloadjs.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "jasmine-matchers/jasmine-matchers.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "421d6610bdb09e1015b71f5991d7a68d079eca21"
+    }
+  }
+}

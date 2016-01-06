@@ -1,0 +1,38 @@
+<div class="wrapper">
+	<a class="button cta">Add/Edit</a>
+	<h2 data-bind="text: month"></h2>
+
+	<form>
+		<fieldset>
+			<label for="utilities">Utilities</label>
+			<input type="number" id="utilities" tabindex="1" autocomplete="off" data-bind="live: utilities" />
+		</fieldset>
+	</form>
+
+	<div class="title">
+		<span>Payee</span>
+	</div>
+
+	<ul>
+	<!-- ko foreach: payee -->
+	<li>
+		<h4 data-bind="text: $data.name, click: $root.controller.togglePayee.bind($root.controller, $index())"></h4>
+		<div class="calculation" data-bind="css:{'expand': $root.selected() === $index()}">
+			<div class="room">
+				<span class="label">Room: </span>
+				<span class="number" data-bind="text: $data.room"></span>
+			</div>
+			<div class="addon">
+				<span class="label">Utilities (each): </span>
+				<span class="number" data-bind="text: $root.utilities()/5"></span>
+			</div>
+			<h5>
+				<span class="label">Total: </span>
+				<span class="number" data-bind="text: $data.room + $root.utilities()/5"></span>
+			</h5>
+		</div>
+
+	</li>
+	<!-- /ko -->
+	</ul>
+</div>

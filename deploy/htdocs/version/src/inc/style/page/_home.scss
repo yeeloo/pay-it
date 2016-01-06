@@ -1,0 +1,91 @@
+/**
+ *	Page - home
+ */
+
+.view.view-home {
+	.wrapper{
+		box-sizing: border-box;
+		padding: 20px;
+		width: 90%;
+		max-width: 400px;
+		margin: 20px auto;
+		border-radius: 0.5rem;
+		background-color: $colorBlock;
+	}
+
+	form{
+		fieldset{
+			border: none;
+			padding: 0;
+			margin: 10px 0;
+
+			input{
+				background-color: rgba(255, 255, 255, 0.3);
+				color: $colorBg;
+				font: bold 18px/1 $fontCustom;
+				-webkit-appearance: none; -moz-appearance: none; appearance: none;
+				border: none;
+				padding: 10px 15px;
+				box-sizing: border-box;
+				outline: 0;
+				border-radius: 0.3rem;
+				width: 100%;
+			}
+			label{
+				font-size: 10px;
+				color: white;
+				text-transform: uppercase;
+				line-height: 20px;
+			}
+		}
+	}
+
+
+	ul, li{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+		font: normal 14px/1.2 $fontCustom;
+
+		h4, h5{
+			cursor: pointer;
+			text-align: left;
+			text-transform: initial;
+			font-size: 20px;
+		}
+		h5{
+			font-size: 16px;
+		}
+		.calculation{
+			width: 100%;
+			height: auto;
+			overflow: hidden;
+			max-height: 0;
+			transition: max-height 500ms ease-out;
+			margin: 0;
+			&.expand{
+				max-height: 200px;
+			}
+		}
+	}
+
+	li{
+		background-color: rgba(255, 255, 255, 0.1);
+		margin: 15px 0;
+		box-sizing: border-box;
+		padding: 15px;
+		border-radius: 0.2rem;
+		div{
+			margin: 8px 0;
+			@extend .clearfix;
+			font: normal 12px/1 $fontCustom;
+			.label{
+				float: left;
+			}
+			.number{
+				float: right;
+			}
+		}
+	}
+}

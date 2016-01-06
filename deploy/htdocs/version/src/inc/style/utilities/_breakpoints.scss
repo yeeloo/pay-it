@@ -1,0 +1,39 @@
+/**
+ * Respond To (Breakpoint)
+ * @param {string} $name - Name of the breakpoint used in $breakpoints
+ */
+@mixin respond-to($name) {
+	@if map-has-key($mediaQueries, $name) {
+		@media #{map-get($mediaQueries, $name)} {
+			@content;
+		}
+	}
+}
+
+/**
+ * State indicator. Element created in JS when the browser does not support the matchMedia API.
+ */
+.state-indicator {
+	@include size(1px);
+	left: -999em;
+	overflow: hidden;
+	position: absolute;
+	top: -999em;
+}
+
+@for $i from 1 through length($DeviceState) {
+	$index: if($reverseDeviceStateOrder, length($DeviceState) + 1 - $i, $i);
+	$state: nth($DeviceState, $index);
+
+	$deviceStateNumber: ($index - 1);
+
+	@if map-has-key($mediaQueries, $state) {
+		@include respond-to($state) {
+			.state-indicator:before {
+				content: "#{$deviceStateNumber}";
+			}
+		}
+	} @else {
+		@error "Device state '#{$state}' not found in breakpoints map in breakpoints.js";
+	}
+}

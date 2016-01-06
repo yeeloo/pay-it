@@ -1,0 +1,13 @@
+URL: http://modernizr.com/download/#-rgba-csstransitions-shiv-cssclasses-testprop-testallprops-domprefixes
+Version: 2.6.2 (Custom Build)
+License: MIT or new BSD
+License File: LICENSE
+
+Description:
+Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the
+user's browser.
+
+Local Modifications:
+Custom build version using the online builder using the above URL.
+The 2.6.2 version cannot be build currently, but the full version can be
+downloaded from <https://github.com/Modernizr/Modernizr/blob/v2.6.2/modernizr.js>.

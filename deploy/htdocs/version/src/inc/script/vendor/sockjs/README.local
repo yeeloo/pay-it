@@ -1,0 +1,12 @@
+URL: https://github.com/sockjs/sockjs-client/blob/v0.3.4/dist/sockjs.js
+Version: 0.3.4
+License: MIT
+
+Description:
+SockJS is a browser JavaScript library that provides a WebSocket-like object.
+SockJS gives you a coherent, cross-browser, Javascript API which creates a
+low latency, full duplex, cross-domain communication channel between the
+browser and the web server.
+
+Local Modifications:
+No modifications

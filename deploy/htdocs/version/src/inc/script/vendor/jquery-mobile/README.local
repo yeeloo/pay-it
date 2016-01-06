@@ -1,0 +1,15 @@
+URL: http://jquerymobile.com/download-builder/
+Version: v1.4.5 (Custom build)
+License: MIT
+
+Description:
+jQuery Mobile is a HTML5-based user interface system designed to make
+responsive web sites and apps that are accessible on all smartphone,
+tablet and desktop devices.
+
+Local Modifications:
+Custom build (see <http://jquerymobile.com/download-builder/>)
+with only the required features enabled to reduce file size, selected are:
+jqmData, Defaults, Helpers, Namespace, Orientation support test,
+Virtual Mouse (vmouse) Bindings, Orientation Change, Throttled Resize, Touch,
+Match Media Polyfill, Zoom Handling, iOS Orientation Change Fix
