@@ -1,0 +1,48 @@
+import AbstractComponentController from 'lib/temple/component/AbstractComponentController';
+
+import {{{filenames.options}}} from 'app/component/{{{subfolder}}}{{{componentId}}}/{{{filenames.options}}}';
+import {{{filenames.viewModel}}} from 'app/component/{{{subfolder}}}{{{componentId}}}/{{{filenames.viewModel}}}';
+{{#withEvents}}
+import {{{filenames.event}}} from 'app/component/{{{subfolder}}}{{{componentId}}}/{{{filenames.event}}}';
+{{/withEvents}}
+
+import Log from "lib/temple/utils/Log";
+
+class {{{filename}}} extends AbstractComponentController
+{
+	/**
+     * Overrides AbstractComponentController.options
+     */
+    public options:{{{filenames.options}}};
+	/**
+     * Overrides AbstractComponentController.viewModel
+     */
+    public viewModel:{{{filenames.viewModel}}};
+
+    private _debug:Log = new Log('App.Component.{{capitalizedComponentId}}');
+
+    /**
+     *	Overrides AbstractComponentController.init()
+     */
+    public init():void
+    {
+        super.init();
+{{#withEvents}}
+		this.dispatchEvent(new {{{filenames.event}}}({{{filenames.event}}}.INIT, this));
+{{/withEvents}}
+
+        this._debug.log('Init');
+    }
+
+	/**
+	 *	Overrides AbstractComponentController.destruct()
+	 */
+	public destruct():void
+	{
+
+		// always call this last
+		super.destruct();
+	}
+}
+
+export default {{{filename}}};

@@ -1,0 +1,17 @@
+define([
+    "require",
+    "exports",
+    'app/component/{{{subfolder}}}{{{componentId}}}/{{{filenames.controller}}}',
+    'app/component/{{{subfolder}}}{{{componentId}}}/{{{filenames.viewModel}}}',
+    'text!app/component/{{{subfolder}}}{{{componentId}}}/{{{filenames.html}}}.html'
+], function (
+    require,
+    exports,
+    controller,
+    viewmodel,
+    template
+) {
+    exports.controller = controller.default;
+    exports.viewmodel = viewmodel.default;
+    exports.template = template;
+});

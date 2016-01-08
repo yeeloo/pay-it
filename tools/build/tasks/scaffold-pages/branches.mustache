@@ -1,0 +1,16 @@
+/**
+ * @namespace app.data.enum
+ * @class Branches
+ */
+class Branches
+{
+{{#pages}}
+	public static {{{prefix}}}{{id}}:string = '{{{branch}}}';
+{{/pages}}
+}
+
+// use in templates
+window['Branches'] = Branches;
+
+// use in classes
+export default Branches;

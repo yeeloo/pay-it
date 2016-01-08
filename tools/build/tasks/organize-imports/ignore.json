@@ -1,0 +1,22 @@
+[
+  "DEBUG",
+
+  "HTMLCanvasElement",
+  "HTMLDivElement",
+  "HTMLImageElement",
+  "HTMLElement",
+  "CanvasRenderingContext2D",
+  "Image",
+  "Math",
+  "TweenLite",
+  "Error",
+  "RegExp",
+  "Array",
+  "KnockoutObservable",
+  "KnockoutObservableArray",
+  "AbstractTestdriveRangeVideo",
+  "KeyboardEvent",
+  "Draggable",
+
+  "THREE"
+]

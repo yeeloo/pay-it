@@ -1,0 +1,29 @@
+import AbstractComponentViewModel from 'lib/temple/component/AbstractComponentViewModel';
+import {{{filenames.controller}}} from 'app/component/{{{subfolder}}}{{{componentId}}}/{{{filenames.controller}}}';
+
+import ko = require('knockout');
+
+class {{{filename}}} extends AbstractComponentViewModel
+{
+	/**
+     * Overrides AbstractComponentViewModel.controller
+     */
+    public controller:{{{filenames.controller}}};
+
+    constructor()
+    {
+        super();
+    }
+
+	/**
+	 *	Overrides AbstractComponentViewModel.destruct()
+	 */
+	public destruct():void
+	{
+
+		// always call this last
+		super.destruct();
+	}
+}
+
+export default {{{filename}}};

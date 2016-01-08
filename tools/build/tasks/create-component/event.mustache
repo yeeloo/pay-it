@@ -1,0 +1,14 @@
+import BaseEvent from 'lib/temple/events/BaseEvent';
+import {{{filenames.controller}}} from 'app/component/{{{subfolder}}}{{{componentId}}}/{{{filenames.controller}}}';
+
+class {{{filename}}} extends BaseEvent
+{
+	public static INIT:string = '{{{filename}}}.INIT';
+
+	constructor(type:string, public component:{{{filenames.controller}}})
+	{
+		super(type);
+	}
+}
+
+export default {{{filename}}};

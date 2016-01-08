@@ -1,0 +1,32 @@
+{
+  "name": "createjs-def",
+  "version": "0.2.0",
+  "description": "CreateJS Toolkit definitions generator",
+  "bin": {
+    "createjs-def": "bin/createjs-def"
+  },
+  "main": "./lib/index",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/elsassph/createjs-def.git"
+  },
+  "keywords": [
+    "createjs",
+    "typescript",
+    "haxe"
+  ],
+  "author": {
+    "name": "Philippe Elsass"
+  },
+  "license": "MIT",
+  "readme": "Generate definition files for various languages from Flash Professional's CreateJS Toolkit's generated JavaScript library.",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/elsassph/createjs-def/issues"
+  },
+  "homepage": "https://github.com/elsassph/createjs-def",
+  "_id": "createjs-def@0.2.0",
+  "_shasum": "151a1763ee933e5127ea23ebd801ef3a1036840e",
+  "_from": "createjs-def@",
+  "_resolved": "https://registry.npmjs.org/createjs-def/-/createjs-def-0.2.0.tgz"
+}
